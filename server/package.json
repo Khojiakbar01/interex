@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev:win": "set NODE_ENV=dev&&nodemon server.js",
+    "start:prod:win": "set NODE_ENV=prod&&node server.js",
+    "start:dev:lin": "NODE_ENV=dev nodemon server.js",
+    "start:prod:lin": "NODE_ENV=prod node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.6",
+    "docx": "^7.7.0",
+    "dotenv": "^16.0.3",
+    "exceljs": "^4.3.0",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "node-telegram-bot-api": "^0.60.0",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.23.2"
+  }
+}

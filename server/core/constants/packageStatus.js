@@ -1,0 +1,4 @@
+exports.STATUS_NEW = "NEW"
+exports.STATUS_OLD = "OLD"
+exports.STATUS_REJ_NEW = "REJECTED_NEW"
+exports.STATUS_REJ_OLD = "REJECTED_OLD"

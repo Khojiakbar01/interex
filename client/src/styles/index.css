@@ -1,0 +1,186 @@
+@font-face {
+  font-family: Roboto;
+  src: url("../assets/fonts/Roboto/Roboto-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: Roboto;
+  src: url("../assets/fonts/Roboto/Roboto-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: Roboto;
+  src: url("../assets/fonts/Roboto/Roboto-Regular.ttf");
+  font-weight: 400;
+}
+
+:root {
+  --black: #0e1427;
+  --blueViolet: #7d41ed;
+  --orange: #0b0909;
+  --green: #1fb186;
+  --darkGrey: #7a7a7a;
+  --grey: #a7abb6;
+  --wheat: #f5f5f5;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-slider-thumb {
+  background-color: var(--blueViolet);
+}
+::-webkit-scrollbar-track {
+  background-color: var(--grey);
+} */
+.h1 {
+  font-size: 3.2rem;
+  line-height: 130%;
+}
+.h2 {
+  font-size: 2.4rem;
+  line-height: 130%;
+}
+.h3 {
+  font-size: 2.2rem;
+  line-height: 130%;
+}
+.h4 {
+  font-size: 2rem;
+  line-height: 130%;
+}
+.h5 {
+  font-size: 1.8rem;
+  line-height: 130%;
+}
+.h6 {
+  font-size: 1.6rem;
+  line-height: 130%;
+}
+
+.subtitle {
+  font-size: 1.4rem;
+  line-height: 130%;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.block {
+  display: block;
+}
+.inline-block {
+  display: inline-block;
+}
+.inline {
+  display: inline;
+}
+
+@media (max-width: 1200px) {
+  .h1 {
+    font-size: 2.8rem;
+    line-height: 130%;
+  }
+  .h2 {
+    font-size: 2rem;
+    line-height: 130%;
+  }
+  .h3 {
+    font-size: 1.8rem;
+    line-height: 130%;
+  }
+  .h4 {
+    font-size: 1.6rem;
+    line-height: 130%;
+  }
+  .h5 {
+    font-size: 1.4rem;
+    line-height: 130%;
+  }
+  .h6 {
+    font-size: 1.2rem;
+    line-height: 130%;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+    line-height: 130%;
+  }
+}
+
+@media (max-width: 980px) {
+  .h1 {
+    font-size: 3.2rem;
+    line-height: 130%;
+  }
+  .h2 {
+    font-size: 2.4rem;
+    line-height: 130%;
+  }
+  .h3 {
+    font-size: 2.2rem;
+    line-height: 130%;
+  }
+  .h4 {
+    font-size: 2rem;
+    line-height: 130%;
+  }
+  .h5 {
+    font-size: 1.8rem;
+    line-height: 130%;
+  }
+  .h6 {
+    font-size: 1.6rem;
+    line-height: 130%;
+  }
+
+  .subtitle {
+    font-size: 1.4rem;
+    line-height: 130%;
+  }
+
+  html {
+    font-size: 58%;
+  }
+}

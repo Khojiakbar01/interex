@@ -1,0 +1,32 @@
+.infoLink {
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.span {
+  width: 12rem;
+  display: block;
+  padding-bottom: 0.5rem;
+}
+.updateLink {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+.disabled {
+  pointer-events: none;
+}
+
+.actionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.orderInfo {
+  /* padding: 2.5rem 2rem; */
+  padding-top:2rem ;
+}

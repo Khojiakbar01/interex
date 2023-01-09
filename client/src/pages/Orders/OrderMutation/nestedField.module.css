@@ -1,0 +1,34 @@
+.itemContainer {
+  position: relative;
+  padding: 1rem 0rem;
+  margin: 0 auto 0 auto;
+  width: 70%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btnIconTextContainer {
+  width: 6rem;
+  margin: 0.5rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 0%;
+  transform: translate(0%, 150%);
+}
+.trashBtn {
+  width: 17rem;
+}
+
+@media (max-width: 650px){
+  .itemContainer{
+    display: block;
+  }
+   .btnIconTextContainer{
+      
+   }
+   .trashBtn{
+   width: 10rem
+   }
+}

@@ -1,0 +1,49 @@
+.paginationContainer {
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.pageLinks {
+  text-decoration: none;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.7rem;
+  line-height: 2.4rem;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #aaaaaa;
+}
+
+.dots {
+  background-color: inherit;
+  border: none;
+  outline: none;
+}
+
+.arrowLeft {
+  transform: rotateY(180deg);
+}
+
+.pageLinks:hover .arrow {
+  background-color: #7d41ed;
+  stroke: #fff;
+}
+
+.pageLinks:hover {
+  background-color: #7d41ed;
+  color: white;
+}
+
+.active {
+  background-color: #7d41ed;
+  color: white;
+}
+
+.disabledTrue {
+  pointer-events: none;
+}

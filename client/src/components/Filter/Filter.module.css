@@ -1,0 +1,30 @@
+.filterContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 2%;
+}
+
+.filterBtn {
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.displayNone {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .filterContainer {
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .filterBtn {
+    display: block;
+  }
+}

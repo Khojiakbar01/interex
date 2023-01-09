@@ -1,0 +1,30 @@
+.div{
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    padding-bottom:0
+}
+.p{
+    padding: 1.5rem;
+    
+    padding-top:0;
+}
+.ellipse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 54px;
+height: 54px;
+border-radius:50%;
+
+background: rgba(122, 122, 122, 0.4);
+}
+.rectangle{
+width: 54px;
+height: 5px;
+background: rgba(122, 122, 122, 0.4);
+}

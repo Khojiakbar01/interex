@@ -1,0 +1,76 @@
+.formControl {
+  width: 100%;
+}
+.label {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  letter-spacing: -0.01em;
+  color: #4b5563;
+  margin-bottom: 1.6rem;
+  width: 100%;
+}
+.selectContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.error {
+  border: 0.1rem solid #ff5f4a;
+}
+
+.errorText {
+  color: #ff5f4a;
+}
+
+.errorTextNone {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  align-items: center;
+  letter-spacing: -0.01em;
+  color: transparent;
+}
+
+.success {
+  border: 0.1rem solid #1fb186;
+}
+
+.select {
+  display: inline-block;
+  padding: 1rem 1.6rem;
+  background: #ffffff;
+  border: 0.01rem solid #9ca3af;
+  border-radius: 0.7rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  letter-spacing: -0.01em;
+  color: #374151;
+  outline: none;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.select > option:active {
+  background-color: rgba(125, 65, 237, 0.1);
+}
+.select > option:hover {
+  background-color: rgba(125, 65, 237, 0.1);
+}
+
+.select > option {
+  display: inline-block;
+  /* padding: 1rem 1.6rem; */
+  background-color: #ffffff;
+  border-radius: 0px;
+  font-weight: 400;
+  font-size: 1.6rem;
+  /* line-height: 2.4rem; */
+  letter-spacing: -0.01em;
+  color: #374151;
+  outline: none;
+  border: none;
+}
